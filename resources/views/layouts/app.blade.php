@@ -18,6 +18,7 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
 
     @livewireStyles
+    @powerGridStyles
 </head>
 
 <body class="font-sans antialiased">
@@ -38,6 +39,7 @@
     </div>
 
     @livewireScripts
+    @powerGridScripts
 </body>
 
 </html>
